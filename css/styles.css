@@ -24,11 +24,11 @@ body {
  img{display: block;}
 
 .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: 156px; 
-        margin-right: 156px;
+        max-width: 320px;
+        padding-left: 16px;
+        padding-right: 16px;
+        /* padding-left: 15px;
+        padding-right: 15px; */
         margin: 0 auto;
 }
 
@@ -204,30 +204,40 @@ margin: 0 auto;
 }
 
 .strategy {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        text-align: center;
+        margin-bottom: 8px;
+        /* font-weight: 500;
         font-size: 20px;
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        margin-bottom: 8px;
+        margin-bottom: 8px; */
 }
 
 .container-strategy{
-        padding: 120px 0;
+        padding: 96px 0;
+        /* padding: 120px 0; */
         }
 
 .container-strategy-menu{
         display: flex;
-        gap: 24px;
+        flex-wrap: wrap;
+        row-gap: 72px;
+        /* gap: 24px; */
 }
 
 .strategy-item{
-        width: calc((100% - 24px* 3) / 4);
+        /* width: calc((100% - 24px* 3) / 4); */
 }
 
 .strategy-images{
-        border: 1px solid #8e8f99;
+        display: none;
+        /* border: 1px solid #8e8f99;
                 border-radius: 4px;
                 width: 264px;
                 height: 112px;
@@ -236,22 +246,15 @@ margin: 0 auto;
                 margin-bottom: 8px;
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: center; */
 }
 
 .strategy-icon{
         position: absolute;
                 }
 
-.h3{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 120%;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-
 p{
+        font-weight: 500;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -259,7 +262,6 @@ p{
 }
 
 h2{
-    font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 111%;
@@ -271,31 +273,21 @@ h2{
 /* -------------------------------team-------------------------- */
 
 .our{
-padding: 120px 0;
+padding: 96px 0;
+/* padding: 120px 0; */
 background-color: #f4f4fd;
 }
 
-
-.container-our-team{
-        padding-top: 120px;
-        padding-bottom: 120px;
-}
-
-.command{
-        display: flex;
-        gap: calc((100% - 264px* 4) / 3);
-        border-radius: 0 0 4px 4px;
-        }
-        
 .command-title{
-        width: calc((100% - 24px* 3) / 4);
+        /* width: calc((100% - 24px* 3) / 4); */
 }
 
 .command {
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        text-align: center;
+        justify-content: center;
+        border-radius: 0 0 4px 4px;
 }
 
 .command-title {
@@ -794,3 +786,87 @@ align-items: center;}
                 text-decoration-skip-ink: none;
                 color: #4d5ae5;
 }
+
+/* -------------------MEDIA------------------------------- */
+/* -------------------768--------------------------------- */
+
+@media screen and (min-width: 768px) {
+
+.container {
+max-width: 768px;
+}
+
+.container-strategy-menu {
+column-gap: 24px;
+}
+
+.strategy-item {
+width: calc((100% - 24px) / 2);
+}
+
+.strategy {
+text-align: left;
+}
+
+}
+
+/* -------------------------------768 team-------------------------- */
+
+/* -------------------1158-------------------------------- */
+
+@media screen and (min-width: 1158px) {
+
+.container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        }
+
+.strategy {
+
+
+                letter-spacing: 0.02em;
+                color: #2e2f42;
+                text-align: left;
+                margin-bottom: 8px;
+                font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        }
+
+.container-strategy {
+        padding: 120px 0;
+}
+
+.container-strategy-menu {
+column-gap: 24px;
+}
+
+.strategy-item {
+        width: calc((100% - 24px* 3) / 4);
+}
+
+.strategy-images {
+        border: 1px solid #8e8f99;
+                border-radius: 4px;
+                width: 264px;
+                height: 112px;
+                background: #f4f4fd;
+                position: relative;
+                margin-bottom: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+}
+
+p {
+        font-weight: 400;
+}
+
+}
+
+/* -------------------------------1158 team-------------------------- */
+
+.our {
+        padding: 120px 0;}
