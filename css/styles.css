@@ -253,7 +253,7 @@ margin: 0 auto;
         position: absolute;
                 }
 
-p{
+.strategy-details{
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -278,23 +278,33 @@ padding: 96px 0;
 background-color: #f4f4fd;
 }
 
-.command-title{
-        /* width: calc((100% - 24px* 3) / 4); */
+.about-team{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        margin-bottom: 72px;
 }
+
 
 .command {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
+        row-gap: 72px;
+        /* gap: 24px; */
         justify-content: center;
         border-radius: 0 0 4px 4px;
 }
 
 .command-title {
+        width: 264px;
+        height: 428px;
+        /* width: calc((100% - 24px* 3) / 4); */
         background-color: #ffffff;
         border-radius: 0 0 4px 4px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
 }
 
 .command-div-item {
@@ -308,11 +318,17 @@ background-color: #f4f4fd;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
+        text-align: center;
 }
 
 .command-title-text {
+        font-weight: 400;
         font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        text-align: center;
         margin-bottom: 8px;
+        color: #434455;
 }
 
 .command-title-icon {
@@ -357,11 +373,19 @@ background-color: #f4f4fd;
 /* ---------------------about----------------------------------- */
 
 .our-team-about {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        /* padding-top: 120px;
+        padding-bottom: 120px; */
+        padding-top: 96px;
+        padding-bottom: 96px;
 }
 
-.about{
+.about-our{
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 111%;
+                letter-spacing: 0.02em;
+                text-align: center;
+                color: #2e2f42;
         text-transform: capitalize;
         margin-bottom: 72px;
 }
@@ -374,8 +398,11 @@ row-gap: 48px;
 }
 
 .about-container-item{
-        width: 360px;
-        height: 420px;
+        width: 288px;
+        height: 400px;
+        /* width: 360px;
+        height: 420px; */
+        box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
@@ -393,11 +420,22 @@ border-bottom: 1px solid #e7e9fc;
 border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
 padding: 32px 16px;
-width: 360px;
+width: 288px;
+/* width: 360px; */
 height: 120px;
 }
 
+.command-about-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+        }
+
 .command-text {
+        font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -432,31 +470,54 @@ height: 120px;
 
 .head-footer{
 background-color: #2e2f42;
-padding: 100px 0;
+/* padding: 100px 0; */
+padding: 96px 0;
 }
 
 .container-footer{
 display: flex;
-align-items: baseline;
+/* align-items: baseline; */
+flex-wrap: wrap;
+row-gap: 72px;
+align-items: center;
 }
 
 .container-footer-logo{
-        margin-right: 120px;
+        /* margin-right: 120px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.logo-footer {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        margin: auto;
+        /* margin-right: 76px; */
 }
 
 #logo-footer{
 color: #4d5ae5;
-background: #2e2f42;
-display: inline-block;
+/* background: #2e2f42;
+display: inline-block; */
 margin-bottom: 16px;
 }
 
 .name-footer{
         color: #f4f4fd;
+        margin: 0 auto;
 }
 
 .sotial-footer{
-        margin-right: 80px;
+        /* margin-right: 80px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 }
 
 .text-footer{
@@ -465,7 +526,8 @@ margin-bottom: 16px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         background: #2e2f42;
-        width: 264px;
+        /* width: 264px; */
+        width: 288px;
 }
 
 
@@ -497,7 +559,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         background-color: #31d0aa;
 }
 
-/* ------------------------------------------------------------ */
 .subscribe-footer-text{
                 font-weight: 500;
                 font-size: 16px;
@@ -505,14 +566,17 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 letter-spacing: 0.02em;
                 color: #fff;
                 margin-bottom: 16px;
+                text-align: center;
 }
 
 .footer-input{
         border: 1px solid #ffffff;
                 border-radius: 4px;
-                width: 264px;
+                /* width: 264px; */
+                width: 288px;
                 height: 40px;
                 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+                opacity: 0.3;
                 background-color: transparent;
                 padding-left: 16px;
                 outline: transparent;
@@ -520,13 +584,15 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 line-height: 200%;
                 letter-spacing: 0.04em;
                 color: #fff;
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);}
-
+}
+               
 .footer-input::placeholder{
-        font-size: 12px;
-                line-height: 200%;
-                letter-spacing: 0.04em;
-                color: #fff;
+font-weight: 400;
+font-size: 12px;
+line-height: 200%;
+letter-spacing: 0.04em;
+color: #fff;
+opacity: 0.6;
 }
 
 .footer-btn{
@@ -551,7 +617,9 @@ color: #fff;
 
 .footer-form{
         display: flex;
-        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
         }
 
 .footer-form-wrap{
@@ -572,6 +640,7 @@ color: #fff;
 margin-left: 16px;
 }
 
+/* ------------------------------------------------------------ */
 /* ---------------------MODAL--------------------------- */
 
 .backdrop {
@@ -808,14 +877,61 @@ width: calc((100% - 24px) / 2);
 text-align: left;
 }
 
+/* -------------------------------768 team-------------------------- */
+.command {
+        row-gap: 64px;
+        column-gap: 24px;
+}
+/* -------------------------------768 team-------------------------- */
+
+/* ---------------------768 about----------------------------------- */
+.about-container-item {
+        width: 356px;
+        height: 420px;
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+        }
+
+.command-name {
+width: 356px;
 }
 
-/* -------------------------------768 team-------------------------- */
+.about-container {
+row-gap: 72px;
+}
+
+/* ---------------------768 about----------------------------------- */
+
+/* ---------------------768 footer----------------------------------- */
+.head-footer {
+padding: 96px 0 96px 108px;
+}
+
+.container-footer {
+        width: 264px;
+        /* align-items: baseline; */
+        column-gap: 24px;
+        align-items: center;
+}
+
+.container-footer-logo {
+        /* margin-right: 120px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+/* ---------------------768 footer----------------------------------- */
+}
+
 
 /* -------------------1158-------------------------------- */
 
 @media screen and (min-width: 1158px) {
 
+/* ---------------------1158 footer----------------------------------- */
+.head-footer{
+padding: 100px 0 100px 156px;
+}
+/* ---------------------1158 footer----------------------------------- */
 .container {
         max-width: 1158px;
         padding-left: 15px;
@@ -860,13 +976,38 @@ column-gap: 24px;
                 justify-content: center;
 }
 
-p {
+.strategy-details {
         font-weight: 400;
-}
-
 }
 
 /* -------------------------------1158 team-------------------------- */
 
 .our {
-        padding: 120px 0;}
+        padding: 120px 0;
+}
+
+.command-title {
+        width: calc((100% - 24px* 3) / 4);
+}
+
+/* -------------------------------1158 team-------------------------- */
+/* ---------------------1158 about----------------------------------- */
+.our-team-about {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.about-container-item {
+        width: 360px;
+        height: 420px;
+        box-shadow: none;
+}
+
+.command-name {
+        width: 360px;
+}
+
+/* ---------------------1158 about----------------------------------- */
+
+}
+
