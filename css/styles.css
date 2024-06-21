@@ -57,6 +57,8 @@ button{
         display: flex;
         align-items: center;
         margin-right: auto;
+        margin-bottom: 16px;
+        margin-top: 16px;
 }
 
 .logo{
@@ -75,7 +77,8 @@ button{
 }
 
 .menu{
-        display: flex;
+        /* display: flex; */
+        display: none;
         gap: 40px;
 }
 
@@ -115,7 +118,8 @@ button{
 }
 
 .address-menu{
-        display: flex;
+        /* display: flex; */
+        display: none;
         gap: 40px;
 }
 
@@ -134,6 +138,16 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .link-address:hover,
 .link-address:focus{
         color: #404bbf;
+}
+
+.mob-menu{
+}
+
+.mob-open-btn {
+background-color: transparent;
+border: none;
+display: flex;
+
 }
 
 /* -----------------------------------head solution----------------------------- */
@@ -452,13 +466,22 @@ height: 120px;
         color: #434455;
 }
 
+/* .picture{
+        object-fit: cover;
+} */
+
 .about-container-img{
         margin: 0 auto;
+        object-fit: cover;
         }
 
 .about-marketing-image{
         position: relative;
         overflow: hidden;
+}
+
+.about-marketing-image picture{
+        flex-shrink: 0;
 }
 
 .about-marketing-text{
