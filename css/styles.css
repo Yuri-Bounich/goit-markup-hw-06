@@ -43,15 +43,15 @@ button{
 
 /* ------------------------------header----------------------------------------------- */
 .header{
-      border-bottom: 1px solid #e7e9fc;
-      box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        border-bottom: 1px solid #e7e9fc;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
         }
 
 .header-container{
         display: flex;
-      align-items: center;}
+        align-items: center;}
 
 .header-logo-menu{
         display: flex;
@@ -62,7 +62,7 @@ button{
 }
 
 .logo{
-    font-family: "Raleway", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 117%;
@@ -140,15 +140,88 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color: #404bbf;
 }
 
-.mob-menu{
+/* -------------------------mob menu------------------------- */
+
+.mob-menu-open{
+
 }
 
 .mob-open-btn {
 background-color: transparent;
 border: none;
 display: flex;
-
 }
+
+.mob-menu {
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        padding: 24px 24px 40px 16px;
+}
+
+.mob-close-btn {
+        display: block;
+        margin-left: auto;
+        margin-bottom: 24px;
+        width: 24px;
+                /* height: 24px;
+                top: 24px;
+                right: 24px;
+                border-radius: 100%;
+                border: 1px solid;
+                fill: #e7e9fc;
+                border-color: rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+.modal-icon {}
+
+.mob-logo-menu {
+        width: 151px;
+        height: 200px;
+}
+
+.logo {}
+
+.name {}
+
+.mob-link {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.current {}
+
+.mob-address {}
+
+.address-mob {}
+
+.mob-link-address {}
+
+.mob-title-icon {}
+
+.mob-title-btn {}
+
+.command-title-block {}
+
+.mob-title-block {}
+
+.title-icon {}
+
+/* -------------------------mob menu------------------------- */
 
 /* -----------------------------------head solution----------------------------- */
 
@@ -465,10 +538,6 @@ height: 120px;
         letter-spacing: 0.02em;
         color: #434455;
 }
-
-/* .picture{
-        object-fit: cover;
-} */
 
 .about-container-img{
         margin: 0 auto;
