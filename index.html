@@ -58,7 +58,7 @@
         </address>
         <button type="button" class="mob-open-btn">
           <svg class="mob-menu-open" width="24" height="24">
-            <use href="./images/icons-mob.svg#icon-header-menu"></use>
+            <use href="./images/icons.svg#icon-header-menu"></use>
           </svg>
         </button>
       </div>
@@ -83,52 +83,54 @@
             </ul>
           </nav>
         </div>
-        <address class="mob-address">
-          <ul class="address-mob">
-            <li>
-              <a class="mob-link-address" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+        <div>
+          <address class="mob-address">
+            <ul class="address-mob">
+              <li>
+                <a class="mob-link-address" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mob-link-address mob-link-phone"
+                  href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-title-icon">
+            <li class="mob-title-btn">
+              <a class="command-title-block mob-title-block" href="">
+                <svg class="title-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a
-                class="mob-link-address mob-link-phone"
-                href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+            <li class="mob-title-btn">
+              <a class="command-title-block mob-title-block" href="">
+                <svg class="title-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-title-btn">
+              <a class="command-title-block mob-title-block" href="">
+                <svg class="title-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-title-btn">
+              <a class="command-title-block mob-title-block" href="">
+                <svg class="title-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
-        <ul class="mob-title-icon">
-          <li class="mob-title-btn">
-            <a class="command-title-block mob-title-block" href="">
-              <svg class="title-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-title-btn">
-            <a class="command-title-block mob-title-block" href="">
-              <svg class="title-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-title-btn">
-            <a class="command-title-block mob-title-block" href="">
-              <svg class="title-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="mob-title-btn">
-            <a class="command-title-block mob-title-block" href="">
-              <svg class="title-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
 
@@ -393,7 +395,7 @@
                       ./images/img_bank_tab.jpg    1x,
                       ./images/img_bank_tab_2x.jpg 2x
                     "
-                    media="(min-width: 768px)"
+                    media="(min-width: 768px and max-width: 1157px)"
                     type="image/jpg"
                   />
                   <source
@@ -439,7 +441,7 @@
                       ./images/img_cashless_tab.jpg    1x,
                       ./images/img_cashless_tab_2x.jpg 2x
                     "
-                    media="(min-width: 768px)"
+                    media="(min-width: 768px and max-width: 1157px)"
                     type="image/jpg"
                   />
                   <source
@@ -485,7 +487,7 @@
                       ./images/img_meditation_tab.jpg    1x,
                       ./images/img_meditation_tab_2x.jpg 2x
                     "
-                    media="(min-width: 768px)"
+                    media="(min-width: 768px and max-width: 1157px)"
                     type="image/jpg"
                   />
                   <source
@@ -531,7 +533,7 @@
                       ./images/img_taxi_tab.jpg    1x,
                       ./images/img_taxi_tab_2x.jpg 2x
                     "
-                    media="(min-width: 768px)"
+                    media="(min-width: 768px and max-width: 1157px)"
                     type="image/jpg"
                   />
                   <source
@@ -577,7 +579,7 @@
                       ./images/img_screen_tab.jpg    1x,
                       ./images/img_screen_tab_2x.jpg 2x
                     "
-                    media="(min-width: 768px)"
+                    media="(min-width: 768px and max-width: 1157px)"
                     type="image/jpg"
                   />
                   <source
@@ -623,11 +625,11 @@
                       ./images/img_two_tab.jpg    1x,
                       ./images/img_two_tab_2x.jpg 2x
                     "
-                    media="(min-width: 768px)"
+                    media="(min-width: 768px and max-width: 1157px)"
                     type="image/jpg"
                   />
                   <source
-                    srcset="./images/img_two.jpg 1x, ./images/img-two_2x.jpg 2x"
+                    srcset="./images/img_two.jpg 1x, ./images/img_two_2x.jpg 2x"
                     media="(min-width: 1158px)"
                     type="image/jpg"
                   />
@@ -721,7 +723,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-icon" width="8" height="8">
