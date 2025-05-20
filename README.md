@@ -52,7 +52,7 @@ example of adaptive layout with three breakpoints
       }
 
 
-🚀 Setup Instructions
+## 🚀 Setup Instructions
    1. Clone the repository:
    *git clone https://github.com/Yuri-Bounich/goit-markup-hw-06.git*
 
@@ -63,10 +63,12 @@ example of adaptive layout with three breakpoints
 *start index.html  # Windows*
 
 
-📩 Contact Information
+## 📩 Contact Information
 
 *For questions or suggestions:*
 
 **📧 Email:** b52ybunich@gmail.com
+
 **💼 LinkedIn:** Yuri Bounich
+
 **💻 GitHub:** Yuri-Bounich
