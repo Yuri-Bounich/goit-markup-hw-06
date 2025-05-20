@@ -1,4 +1,3 @@
-# goit-markup-hw-06
 # HTML + CSS Project 🌐
 
 Responsive layout with mobile menu following modern development standards.
