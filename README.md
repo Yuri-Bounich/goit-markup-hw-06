@@ -34,8 +34,8 @@ example of adaptive layout with three breakpoints
    - 👆 Controlled via `is-open` class
    - 🕶️ Initially hidden
      
-    #### 💻 Implementation Highlights
-      ```css
+ #### 💻 Implementation Highlights
+*css*
       /* Mobile Menu Implementation */
       .mobile-menu {
         position: absolute;
@@ -64,7 +64,7 @@ example of adaptive layout with three breakpoints
 
 📩 Contact Information
 
-For questions or suggestions:
+*For questions or suggestions:*
    
        📧 Email: b52ybunich@gmail.com
    
