@@ -1,6 +1,6 @@
 # HTML + CSS Project 🌐
 
-Responsive layout with mobile menu following modern development standards.
+**Responsive layout with mobile menu following modern development standards.**
 
 example of adaptive layout with three breakpoints
 ![image](https://github.com/user-attachments/assets/93c8f188-05e6-4a8b-abbb-5fc0612747da)
