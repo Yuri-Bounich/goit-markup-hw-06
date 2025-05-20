@@ -57,17 +57,17 @@ example of adaptive layout with three breakpoints
 
    2. Open in browser:
       
-   open index.html    # macOS
+       open index.html    # macOS
    
-   start index.html  # Windows
+       start index.html  # Windows
 
 
 📩 Contact Information
 
-   For questions or suggestions:
+For questions or suggestions:
    
-   📧 Email: b52ybunich@gmail.com
+       📧 Email: b52ybunich@gmail.com
    
-   💼 LinkedIn: Yuri Bounich
+       💼 LinkedIn: Yuri Bounich
    
-   👨💻 GitHub: Yuri-Bounich
+       👨💻 GitHub: Yuri-Bounich
