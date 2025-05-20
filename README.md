@@ -36,6 +36,7 @@ example of adaptive layout with three breakpoints
      
  #### 💻 Implementation Highlights
 *css*
+
       /* Mobile Menu Implementation */
       .mobile-menu {
         position: absolute;
