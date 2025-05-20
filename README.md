@@ -3,7 +3,7 @@
 **Responsive layout with mobile menu following modern development standards.**
 
 example of adaptive layout with three breakpoints
-![image](https://github.com/user-attachments/assets/59644450-0cb7-4781-b853-3229c1fcfb26)
+![image](https://github.com/user-attachments/assets/84df761a-db51-4304-9cd7-b2507ca11c28)
 
 ## 🛠 Technologies Used
    - **HTML5** (semantic markup)
