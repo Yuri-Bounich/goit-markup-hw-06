@@ -33,6 +33,7 @@ example of adaptive layout with three breakpoints
    - 🎨 Styles match design mockup
    - 👆 Controlled via `is-open` class
    - 🕶️ Initially hidden
+     
     #### 💻 Implementation Highlights
       ```css
       /* Mobile Menu Implementation */
@@ -55,12 +56,18 @@ example of adaptive layout with three breakpoints
    git clone https://github.com/Yuri-Bounich/goit-markup-hw-06.git
 
    2. Open in browser:
+      
    open index.html    # macOS
+   
    start index.html  # Windows
 
 
 📩 Contact Information
+
    For questions or suggestions:
+   
    📧 Email: b52ybunich@gmail.com
+   
    💼 LinkedIn: Yuri Bounich
+   
    👨💻 GitHub: Yuri-Bounich
