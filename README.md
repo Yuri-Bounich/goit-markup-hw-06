@@ -3,6 +3,9 @@
 
 Responsive layout with mobile menu following modern development standards.
 
+![image](https://github.com/user-attachments/assets/34d354b6-17d5-4614-a1ab-90b8f995860d)
+
+
 ## 🛠 Technologies Used
    - **HTML5** (semantic markup)
    - **CSS3** (Flexbox, media queries)
